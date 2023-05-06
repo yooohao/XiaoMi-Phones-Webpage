@@ -1,0 +1,90 @@
+
+/*主体照片start==============*/
+.startimg{
+	height: 520px;
+	width: 100%;
+}
+
+.startimg a img{
+	height: 520px;
+	width: 100%;
+}
+/*主体照片end==============*/
+
+/*item开始==========*/
+.content_1{
+	padding-top: 50px;
+	/*background-color: red;*/
+}
+.content_1 .container1{
+	width: 100%;
+}
+.content_1 .container1 .box-hd{
+	position: relative;
+	width: 1226px;
+	height: 68px;
+	/*background-color: red;*/
+	margin: 0 auto;
+
+}
+.content_1 .container1 .box-hd h2{
+	font-weight: 200;
+
+}
+
+.content_1 .container1 .box-bd{
+	width: 1240px;
+	margin: 0 auto;
+	/*background-color: black;*/
+
+}
+.content_1 .container1 .box-bd ul{
+	overflow: hidden;
+	float: left;
+}
+.content_1 .container1 .box-bd ul li{
+	float: left;
+	margin:0 5px 5px 5px;
+	
+}
+.content_1 .container1 .box-bd ul li:hover{
+	box-shadow: 0 5px 5px 7px rgba(0,0,0,.1);
+}
+
+.content_1 .container1 .box-bd ul li .figure{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.content_1 .container1 .box-bd ul li .figure a img{
+	height: 358px;
+	width: 606px;
+}
+.content_1 .container1 .box-bd ul li h2{
+	margin-top: 50px;
+}
+.content_1 .container1 .box-bd ul li h2 a{
+	color: rgb(71,71,71);
+	margin-left: 50px; 
+}
+.content_1 .container1 .box-bd ul li .desc{
+	margin-left: 50px; 
+	color: #757575;
+}
+.content_1 .container1 .box-bd ul li .price{
+	float: right;
+}
+.content_1 .container1 .box-bd ul li .price{
+	color: #FF6700;
+}
+.content_1 .container1 .box-bd ul li .price .num{
+	font-size: 40px;
+	color: #FF6700;
+}
+
+/*item结束==========*/
+.clearfix::after{
+	content: '';
+	clear: both;
+	display: block; 
+}

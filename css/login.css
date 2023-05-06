@@ -1,0 +1,126 @@
+
+.header{
+	width: 1130px;
+	height: 98px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.header a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.header a img{
+	width: 200px;
+	height: 98px;
+	
+}
+.body{
+	width: 100%;
+	height: 588px;
+	
+}
+.body .mainPic{
+	float: left;
+	display: block;
+	height: 100%;
+	width: 100%;
+	
+}
+.body .mainPic img{
+	height: 588px;
+	position: absolute;
+	left: -500px;
+	z-index: -5;
+}
+/*注册栏开始======================================================*/
+.box{
+	width: 410px;
+	height: 530px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 160px;
+	right: 200px;
+	z-index: 1;
+	
+}
+
+.box .title{
+	/*position: relative;*/
+	width: 410px;
+	height: 83px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.box .title h2{
+	float: left;
+	font-weight: 100;
+	margin: 10px;
+	color: #666666;
+	position: relative;
+	top: 18px;
+	left: 75px;
+}
+.box .title .first{
+	border-right: 2px solid #757575;
+	padding-right: 20px;
+	color: #FF6700;
+}
+.register-ifo{
+	width: 410px;
+	height: 400px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+.register-ifo input{
+	width: 326px;
+	height: 60px;
+	border: 1px solid gainsboro;
+	margin-left: 30px;
+}
+.register-ifo .first{
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-left: 20px;
+}
+.register-ifo .second{
+	font-size: 15px;
+	padding-left: 20px;
+}
+.register-ifo .last{
+	margin-top: 30px;
+	background-color: #FF6700;
+	width: 355.6px;
+}
+.register-ifo .p1{
+	font-size: 15px;
+	font-weight: 100;
+	margin: 10px 0 0 140px;
+	color: #FF6700;
+}
+.register-ifo .p2{
+	font-size: 15px;
+	font-weight: 100;
+	margin-top: 30px;
+	color: gainsboro;
+	margin: 30px 0 0 140px;
+}
+.register-ifo .loginicon{
+	margin: 60px 0 0 100px;
+}
+.register-ifo .loginicon a i{
+	font-size: 30px;
+	margin-left: 10px;
+	color: #FF6700;
+}
+/*注册栏结束======================================================*/
+.footer{
+	padding-top: 150px;
+	width: 1520px;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+.footer p{
+	text-align: center;
+	padding-top: 20px;
+}
